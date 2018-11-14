@@ -1,0 +1,65 @@
+package variables;
+
+public class variablestarea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// declaracion de variables;
+	
+		double a=2.52611681;
+		double b=1.64688631;
+		
+		
+		double max=Math.max(a, b);// devuelve el valor máximo entre 2 variables
+		System.out.println(max);
+		
+		double min=Math.min(a, b); // devuelve el valor mínimo entre 2 variables
+		System.out.println(min);
+		
+		double abs=Math.abs(a); // devuelve el valor absoluto de la variable a
+		System.out.println(abs);
+		
+		double cubo=Math.cbrt(a);// devuelve la raiz cúbica de la variable a
+		System.out.println(cubo);
+		
+		double coseno=Math.cos(b);// devuelve el coseno trigonométrico de la variable b
+		System.out.println(coseno);
+		
+		double seno=Math.sin(b);// devuelve el seno trigonométrico de la variable b
+		System.out.println(seno);
+		
+		double tangente=Math.tan(b);// devuelve el coseno trigonométrico de la variable b
+		System.out.println(tangente);
+		
+		double exponente=Math.exp(a);// devuelve "e" elevado al valor de la variable a
+		System.out.println(exponente);
+		
+		double expmenos1=Math.expm1(a);// devuelve "e" elevado al valor de la variable a, menos 1
+		System.out.println(expmenos1);
+		
+		double hipotenusa=Math.hypot(a, b);// devuelve la hipotenusa dadas 2 variables (hypot= (x.x+y.y))
+		System.out.println(hipotenusa);
+		
+		double log=Math.log(a);// devuelve el logaritmo natural base e de la variable a
+		System.out.println(log);
+		
+		double log10=Math.log10(a);// devuelve el logaritmo base 10 de la variable a
+		System.out.println(log10);
+		
+		double azar=Math.random();// devuelve un valor  double aleatorio
+		System.out.println(azar);
+		
+		double radianes=Math.toRadians(a);// Convierte un ángulo medido en grados a al equivalente de un ángulo medido en radianes de la variable a
+		System.out.println(radianes);
+		
+		double degrees=Math.toDegrees(b);// Convierte un ángulo medido en radianes a al equivalente de un ángulo medido en grados de la variable b
+		System.out.println(degrees);
+		
+		
+		
+				
+
+	}
+
+}
